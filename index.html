@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AirAware India</title>
+</head>
+<body>
+    <h1>AirAware India 🌱</h1>
+
+    <form action="/result" method="post">
+        <label>City Name:</label><br>
+        <input type="text" name="city" required><br><br>
+
+        <label>AQI Value:</label><br>
+        <input type="number" name="aqi" required><br><br>
+
+        <label>Pollution Source:</label><br>
+        <select name="source">
+            <option>Construction</option>
+            <option>Industrial</option>
+            <option>Vehicle</option>
+            <option>Waste Burning</option>
+            <option>Deforestation</option>
+        </select><br><br>
+
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
+
